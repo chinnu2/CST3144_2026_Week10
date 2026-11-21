@@ -28,7 +28,7 @@ const uri = 'mongodb+srv://sinuchinnu556_db_user:wednesday@cluster0.j9feal1.mong
 //mongodb+srv://sinuchinnu556_db_user:wednesday@cluster0.j9feal1.mongodb.net/
 
 //const client = new MongoClient(uri);
-//const uri = process.env.MONGODB_URI;
+const uri = process.env.MONGODB_URI;
 
 const client = new MongoClient(uri);
 
